@@ -6,9 +6,9 @@ A tool for scanning and identifying dangerous settings in common network service
 
 This security tool helps system administrators and security professionals identify potentially dangerous configurations in network services such as:
 
+- FTP (File Transfer Protocol)
 - SMB (Samba)
 - NFS (Network File System)
-- More protocols to be added
 
 ## Features
 
@@ -24,18 +24,19 @@ This security tool helps system administrators and security professionals identi
 Make sure you have:
 
 - Python 3.7+
-- Git installed
 
 ### 📦 Installation
 
-1. **Clone the repository:**
+- **Clone the repository:**
 
-   git clone https://github.com/your-username/local-audit-tool.git
-   cd local-audit-tool
+  ```bash
+  $ git clone https://github.com/Sahil-Makhija/Local-Audit-Tool.git
+  $ cd Local-Audit-Tool
+  ```
 
-2. **Install dependencies (if any):**
+<!-- 2. **Install dependencies (if any):**
 
-   > 💡 If you plan to use additional libraries later, add a `requirements.txt` — for now, this assumes only Python standard libraries are used.
+   > 💡 If you plan to use additional libraries later, add a `requirements.txt` — for now, this assumes only Python standard libraries are used. -->
 
 ### 🚀 Running the Tool
 
